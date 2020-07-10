@@ -50,26 +50,126 @@ th {
 table tr:nth-child(odd) {
     background-color: #fff;
 }
-
+img {
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
 
 
 
 
 /* CLASS STYLES */
 .section--hero{
-    background-image: url('../img/grey-polygon.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 60px;
     padding-bottom: 80px;
     margin-bottom: 40px;
+    opacity: 0;
+}
+.section--hero-home{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+        ),
+        url('../img/compressed/lake0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-101{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.15), 
+            rgba(0, 0, 0, 0.15)
+        ),
+        url('../img/compressed/map0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-111{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.15), 
+            rgba(0, 0, 0, 0.15)
+        ),
+        url('../img/compressed/globe0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-121{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.25), 
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('../img/compressed/drone0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-122{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.25), 
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('../img/compressed/tech0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-205{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.25), 
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('../img/compressed/map1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-220{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.25), 
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('../img/compressed/globe1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero-222{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45)
+        ),
+        url('../img/compressed/coding0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--hero h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+.section--hero h3{
+    color: #EFF2F7;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 .section--hero a{
-    color: #273444;
+    color: #85D7FF;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 .section--hero a:hover, .banner a:focus{
-    color: #592DEA;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 .section--video{
     position: relative;
@@ -95,9 +195,11 @@ table tr:nth-child(odd) {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0;
 }
 .footer{
     height: 100px;
+    opacity: 0;
 }
 
 
